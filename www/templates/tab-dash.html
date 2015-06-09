@@ -1,0 +1,10 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">請選擇正確答案</div>
+      <div class="item item-body">
+        <input class="button button-block" type="button" ng-repeat="answer in AnswerCounter" ng-value="answer" ng-click="Answer(answer)">
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
